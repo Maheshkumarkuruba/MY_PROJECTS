@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* NAV BAR STARTS */
+nav{
+border: 2px solid red;
+}
+ nav ul{
+/* border: 3px solid black; */
+display: flex;
+justify-content: space-around;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Karma", sans-serif;
+    color: rgba(0, 0, 0, 0.916);
+}
+ul li{
+    list-style-type: none;
+}
+/* NAVBAR ENDS */
+/* IMGAGE SECTION STARTS */
+.template{
+/* border: 2px solid yellow; */
+display: flex;
+justify-content: center;
+
+}
+.img_section{
+/* border: 3px solid blue; */
+margin: 5px;
+height: 550px;
+width: 300px;
+}
+.img_section img{
+    width: 100%;
+    height: 70%;
+}
+.img_section h3{
+    margin: 8px 0px;
+    text-align: center;
+}
+.img_section p{
+    text-align: center;
+    line-height: 22px;
+
+}
+ul li a i{
+font-weight: 100px;
+/* border: 2px solid red; */
+height:50px;
+width: 50px;
+padding: 10px;
+}
+ul li a i:hover{
+    background-color: rgba(211, 211, 211, 0.852);
+}
+/* IMAGE SECTION ENDS */
+
+
+/* <!-- CARDS SECTION STARTS --> */
+.cards_section{
+/* border: 3px solid red; */
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+margin: 30px;
+}
+.cards_text{
+/* border: 2px solid rgba(128, 128, 128, 0.332); */
+box-shadow: 7px 7px 5px gray;
+margin: 8px;
+width: 380px;
+height: 320px;
+display: flex;
+flex-direction: column;
+justify-content: center; 
+align-items: center;
+transition: all 1s;
+}
+.cards_text h2{
+    margin: 20px 0px;
+}
+.cards_text p{
+    text-align: center;
+    line-height: 22px;
+}
+.cards_text i{
+    font-size: 20px;
+    /* border: 3px solid orangered; */
+    height: 60px;
+    width: 60px;
+    padding: 20px;
+background-color:rgba(224, 3, 3, 0.814);
+box-shadow: -7px -7px rgba(128, 128, 128, 0.508);
+border-radius: 5px;
+color: white;
+}
+.cards_text:hover{
+background-color:rgba(224, 3, 3, 0.814) ;
+}
+.cards_text:hover i{
+background-color: white;
+box-shadow: -7px -7px rgba(128, 128, 128, 0.719);
+color:rgba(224, 3, 3, 0.814) ;
+}
+.cards_text:hover p, .cards_text:hover h2{
+color: white;
+}
+   /* <!-- CARDS SECTION ENDS --> */
+
+   /* section client starts */
+   .client{
+    /* border: 3px solid red; */
+   }
+   .client .text{
+    /* border: 3px solid yellow; */
+    text-align: center;
+    padding: 10px;
+   }
+   .client .text h1{
+    margin: 10px 0px;
+    font-size: 40px;
+    /* color: rgba(128, 128, 128, 0.963); */
+   } 
+   .client .text p{
+    margin: 12px 0px;
+    color: rgba(128, 128, 128, 0.996);
+    font-family: sans-serif;
+   }
+   .client .text hr{
+    /* background-color: orangered; */
+    margin: 10px auto;
+    width: 50px;
+    height: 5px;
+   }
+   .client .img{
+    /* border: 3px solid blue; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 10px;
+   }
+   .client .img img{
+    filter: grayscale(100%);
+    width: 100px;
+    height: 80px;
+   }
+   .client .img img:hover{
+    filter: none;
+   }
+   /* section client ends */
+
+   /* FOOTER1 STARTS */
+   footer{
+    /* border: 3px solid red; */
+    margin: 20px 0px;
+   }
+.footer1{
+    background-color: rgba(0, 0, 0, 0.927);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.footer1_text{
+/* border: 3px solid rgb(242, 255, 0); */
+width: 480px;
+margin-top: 30px;
+}
+.footer1_text h1{
+    margin: 10px;
+}
+.footer1_input{
+    /* border: 3px solid blue; */
+    width: 600px;
+    height: 55px;
+    margin-top: 45px;
+    margin-left: 30px;
+    position: relative;
+}
+.footer1_input input{
+    height: 55px;
+    width: 600px;
+    border-radius: 30px;
+    /* margin-left: 30px; */
+}
+.footer1_input button{
+    background-color: rgba(255, 68, 0, 0.752);
+    padding: 10px 30px;
+    color: white;
+    border-radius: 20px;
+    /* font-weight: bold; */
+    font-size: 15px;
+    position: absolute;
+    right: 0px;
+    bottom: 5px;
+}
+   /* FOOTER1 ENDS*/
+
+   /* FOOTER2 STARTS */
+  .footer2{
+    background-color: rgba(0, 0, 0, 0.958);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 0px,10px; */
+    border: 3px solid violet;
+  }
+.footer2 div{
+    /* border: 3px solid orangered; */
+    width: 300px;
+    height: 300px;
+}
+ .footer2 .footer2_text1{
+display: flex;
+flex-direction: column;
+ padding-left: 50px;
+ text-align: left;
+}
+.footer2 .footer2_text1 ul li{
+    margin: 20px 0px;
+}
+.footer2 .footer2_text1 h3{
+margin-top:10px ;
+}
+.footer2 .footer2_text2{
+    display: flex;
+    flex-direction: column;
+     padding-left: 50px;
+     text-align: left;
+    }
+    .footer2 .footer2_text2 ul li{
+        margin: 20px 0px;
+    }
+    .footer2 .footer2_text2 h3{
+    margin-top:10px ;
+    }
+    .footer .footer_text3{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;    
+    }
+    .footer2 .footer2_text3 h3{
+        margin-top:10px;
+        margin-bottom:15px;
+        }
+        .footer2 .footer2_text3 p{
+            line-height: 25px;
+        }
+        .footer2 .footer2_text3 #para{
+            margin-top: 20px;
+        }
+        .footer2 .footer2_text4 h3{
+            margin-top:10px;
+            margin-bottom:15px;
+            }
+            .footer2 .footer2_text4 p{
+                line-height: 25px;
+                text-align: justify;
+            }
+            .footer2 .footer2_text4 i{
+                margin: 10px 5px;
+                background-color: rgba(211, 211, 211, 0.559);
+                /* border: 3px solid rgb(236, 8, 8); */
+                width: 40px;
+                height: 40px;
+                padding: 10px;
+                border-radius: 20px;
+            }
+            .footer2 .footer2_text4 i:hover{
+                background-color: orangered;
+            }
+             /* .arrow{
+                background-color: yellowgreen;
+            } */
+            .arrow {
+                /* border: 3px solid rgb(236, 8, 8); */
+                width: 40px;
+                height: 40px;
+                padding: 10px; 
+                background-color: rgb(240, 62, 7);
+                position: fixed;
+                bottom: 10px; 
+                right: 10px;
+            }
+            /* .arrow i{
+                position: fixed;
+                width: 40px;
+                height: 40px;
+                padding: 10px; 
+                background-color: rgb(240, 62, 7);
+            } */
+   /* FOOTER2 ENDS */
+   html{
+    scroll-behavior: smooth;
+   }
